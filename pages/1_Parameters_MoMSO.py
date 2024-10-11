@@ -9,7 +9,7 @@ import scipy.special as spios
 #import plotly.express as px
 #import plotly.graph_objects as go
 #from scipy.linalg import block_diag
-from PIL import Image # create page icon
+#from PIL import Image # create page icon
 
 # Make some shortcuts
 pi = np.pi
