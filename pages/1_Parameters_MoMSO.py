@@ -224,14 +224,14 @@ with tab1:
                                    x0= xs[i] - 1 * rs, y0= ys[i] - 1 * rs,
                                    x1= xs[i] + 1 * rs, y1= ys[i] + 1 * rs,
                                    line_color="LightSeaGreen")) 
-                #shapes.append(dict(type="circle", xref="x", yref="y",
-                #                   x0=min(xs) + 1 * rs, y0=-max(xs) + rs,
-                #                   x1=max(xs) - 1 * rs, y1=max(xs) - rs,
-                #                   line_color="LightSeaGreen"))
-                #shapes.append(dict(type="circle", xref="x", yref="y",
-                #                   x0=min(xs) - 1 * rs, y0=-max(xs) - 1 * rs,
-                #                   x1=max(xs) + 1 * rs, y1=max(xs) + 1 * rs,
-                #                   line_color="LightSeaGreen"))
+                shapes.append(dict(type="circle", xref="x", yref="y",
+                                   x0=min(xs) + 1 * rs, y0=-max(xs) + rs,
+                                   x1=max(xs) - 1 * rs, y1=max(xs) - rs,
+                                   line_color="LightSeaGreen"))
+                shapes.append(dict(type="circle", xref="x", yref="y",
+                                   x0=min(xs) - 1 * rs, y0=-max(xs) - 1 * rs,
+                                   x1=max(xs) + 1 * rs, y1=max(xs) + 1 * rs,
+                                   line_color="LightSeaGreen"))
 
             # ARMOR
             for i in range(na):
@@ -239,11 +239,11 @@ with tab1:
                                  x0=xa[i] - ra, y0=ya[i] - 1 * ra,
                                    x1=xa[i] + ra, y1=ya[i] + 1 * ra,
                                    line_color="LightSeaGreen"))
-            #for i in range(na):
-                #shapes.append(dict(type="circle", xref="x", yref="y",
-                #                   x0=min(xa) + ra, y0=min(ya) + 1 * ra,
-                #                   x1=max(xa) - ra, y1=max(ya) - 1 * ra,
-                #                   line_color="LightSeaGreen"))
+            for i in range(na):
+                shapes.append(dict(type="circle", xref="x", yref="y",
+                                   x0=min(xa) + ra, y0=min(ya) + 1 * ra,
+                                   x1=max(xa) - ra, y1=max(ya) - 1 * ra,
+                                   line_color="LightSeaGreen"))
                 shapes.append(dict(type="circle", xref="x", yref="y",
                                    x0=min(xa) - ra, y0=min(ya) - 1 * ra,
                                    x1=max(xa) + ra, y1=max(ya) + 1 * ra,
