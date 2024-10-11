@@ -1,4 +1,4 @@
-scipy.special as spios
+scipy
 plotly.express
 matplotlib==3.5.2
 mpld3
