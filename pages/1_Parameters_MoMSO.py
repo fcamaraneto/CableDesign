@@ -5,11 +5,11 @@ import numpy as np
 import math
 import io
 #import scipy.io as spio
-#import scipy.special as spios
 #import plotly.express as px
 #import plotly.graph_objects as go
 #from scipy.linalg import block_diag
 from PIL import Image # create page icon
+import scipy.special as spios
 
 # Make some shortcuts
 pi = np.pi
@@ -26,7 +26,7 @@ log = np.log
 times = np.matmul
 identity = np.identity
 
-besselJ = spios.jv
+BesselJ = spios.jv
 BesselI = spios.iv # gives the modified Bessel function of the first kind: equivalent a BesselI in Mathematica
 BesselK = spios.kv # gives the modified Bessel function of the second kind: equivalent a BesselK in Mathematica
 
