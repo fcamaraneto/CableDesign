@@ -34,7 +34,7 @@ BesselK = spios.kv # gives the modified Bessel function of the second kind: equi
 #                                     SETTINGS
 #  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 #icon=Image.open('dnv_logo.jpg')
-st.set_page_config(page_title="HELICA Multiphysics", layout="centered", page_icon=icon)
+#st.set_page_config(page_title="HELICA Multiphysics", layout="centered", page_icon=icon)
 
 #  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 #                                     SIDEBAR
