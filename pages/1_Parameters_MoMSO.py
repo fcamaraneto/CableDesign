@@ -26,7 +26,7 @@ log = np.log
 times = np.matmul
 identity = np.identity
 
-besselJ = spios.jv # gives the Bessel function of the first kind: equivalent a BesselJ in Mathematica
+besselJ = spios.jv
 BesselI = spios.iv # gives the modified Bessel function of the first kind: equivalent a BesselI in Mathematica
 BesselK = spios.kv # gives the modified Bessel function of the second kind: equivalent a BesselK in Mathematica
 
