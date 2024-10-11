@@ -136,7 +136,7 @@ with tab1:
                 radius6 = st.number_input('D6 [mm]', format="%.2f", value=74.51, step=1., min_value=.001)
             with col3: 
                 st.write("")
-                rcc = st.number_input('rc [mm]', format="%.2f", value=9.60, step=1., min_value=.001)
+                rcc = st.number_input('rc [mm]', format="%.2f", value=28.80, step=1., min_value=.001)
                 rss = st.number_input('rs [mm]', format="%.2f", value=1.55, step=1., min_value=.001)
                 raa = st.number_input('ra [mm]', format="%.2f", value=2.50, step=1., min_value=.001)
             with col4:
@@ -148,7 +148,7 @@ with tab1:
                 st.write("")
                 Np = st.number_input('Nfourier', value=1, step=1, min_value=0)
                 #Np = 1
-                nf = st.number_input('Samples', value=150, step=1, min_value=0)
+                nf = st.number_input('Samples', value=30, step=1, min_value=0)
 
             D1 = radius1 * 1.e-3
             D2 = radius2 * 1.e-3
