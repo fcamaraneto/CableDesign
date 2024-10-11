@@ -143,7 +143,7 @@ with tab1:
                 st.write("")
                 #nc = st.number_input('Nc ', value=2, step=1, min_value=1)
                 ns = st.number_input('Ns', value=20, step=1, min_value=1)
-                na = st.number_input('Na', value=20, step=1, min_value=1)
+                na = st.number_input('Na', value=30, step=1, min_value=1)
             with col5:
                 st.write("")
                 Np = st.number_input('Nfourier', value=1, step=1, min_value=0)
