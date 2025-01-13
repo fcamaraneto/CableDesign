@@ -136,9 +136,9 @@ with tab1:
                 radius6 = st.number_input('D6 [mm]', format="%.2f", value=74.51, step=1., min_value=.001)
             with col3: 
                 st.write("")
-                rcc = st.number_input('rc [mm]', format="%.2f", value=5, step=1., min_value=.001)
-                rss = st.number_input('rs [mm]', format="%.2f", value=2, step=1., min_value=.001)
-                raa = st.number_input('ra [mm]', format="%.2f", value=3, step=1., min_value=.001)
+                rcc = st.number_input('rc [mm]', format="%.2f", value=5., step=1., min_value=.001)
+                rss = st.number_input('rs [mm]', format="%.2f", value=2., step=1., min_value=.001)
+                raa = st.number_input('ra [mm]', format="%.2f", value=3., step=1., min_value=.001)
             with col4:
                 st.write("")
                 #nc = st.number_input('Nc ', value=2, step=1, min_value=1)
