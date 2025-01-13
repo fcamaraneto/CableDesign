@@ -141,7 +141,7 @@ with tab1:
                 raa = st.number_input('ra [mm]', format="%.2f", value=3, step=1., min_value=.001)
             with col4:
                 st.write("")
-                #nc = st.number_input('Nc ', value=2, step=1, min_value=1)
+                nc = st.number_input('Nc ', value=2, step=1, min_value=1)
                 ns = st.number_input('Ns', value=20, step=1, min_value=1)
                 na = st.number_input('Na', value=70, step=1, min_value=1)
             with col5:
