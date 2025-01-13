@@ -126,9 +126,9 @@ with tab1:
             col1, col2, col3, col4, col5 = st.columns([1, 1, 1, .7, .8])
             with col1:
                 st.write("")
-                radius1 = st.number_input('D1 [mm]', format="%.2f", value=28.80, step=1., min_value=.001)
-                radius2 = st.number_input('D2 [mm]', format="%.2f", value=39.31, step=1., min_value=.001)
-                radius3 = st.number_input('D3 [mm]', format="%.2f", value=49.41, step=1., min_value=.001)
+                radius1 = st.number_input('D1 [mm]', format="%.2f", value=30., step=1., min_value=.001)
+                radius2 = st.number_input('D2 [mm]', format="%.2f", value=40., step=1., min_value=.001)
+                radius3 = st.number_input('D3 [mm]', format="%.2f", value=50., step=1., min_value=.001)
             with col2:
                 st.write("")
                 radius4 = st.number_input('D4 [mm]', format="%.2f", value=65.51, step=1., min_value=.001)
@@ -136,14 +136,14 @@ with tab1:
                 radius6 = st.number_input('D6 [mm]', format="%.2f", value=74.51, step=1., min_value=.001)
             with col3: 
                 st.write("")
-                rcc = st.number_input('rc [mm]', format="%.2f", value=28.80, step=1., min_value=.001)
-                rss = st.number_input('rs [mm]', format="%.2f", value=1.55, step=1., min_value=.001)
-                raa = st.number_input('ra [mm]', format="%.2f", value=2.50, step=1., min_value=.001)
+                rcc = st.number_input('rc [mm]', format="%.2f", value=2, step=1., min_value=.001)
+                rss = st.number_input('rs [mm]', format="%.2f", value=2, step=1., min_value=.001)
+                raa = st.number_input('ra [mm]', format="%.2f", value=3, step=1., min_value=.001)
             with col4:
                 st.write("")
                 #nc = st.number_input('Nc ', value=2, step=1, min_value=1)
                 ns = st.number_input('Ns', value=20, step=1, min_value=1)
-                na = st.number_input('Na', value=80, step=1, min_value=1)
+                na = st.number_input('Na', value=70, step=1, min_value=1)
             with col5:
                 st.write("")
                 Np = st.number_input('Nfourier', value=1, step=1, min_value=0)
