@@ -47,7 +47,7 @@ def add_logo():
                 background-image: url(https://i.postimg.cc/wvSYBKsj/DNV-logo-RGB-Small.png);
                 background-repeat: no-repeat;
                 margin-left: 20px;
-                padding-top: 80px;
+                padding-top: 120px;
                 background-position: 1px 1px;
             }
             [data-testid="stSidebarNav"]::before {
