@@ -127,8 +127,8 @@ with tab1:
             with col1:
                 st.write("")
                 radius1 = st.number_input('D1 [mm]', format="%.2f", value=28.80, step=1., min_value=.001)
-                radius2 = st.number_input('D2 [mm]', format="%.2f", value=59.31, step=1., min_value=.001)
-                radius3 = st.number_input('D3 [mm]', format="%.2f", value=62.41, step=1., min_value=.001)
+                radius2 = st.number_input('D2 [mm]', format="%.2f", value=39.31, step=1., min_value=.001)
+                radius3 = st.number_input('D3 [mm]', format="%.2f", value=49.41, step=1., min_value=.001)
             with col2:
                 st.write("")
                 radius4 = st.number_input('D4 [mm]', format="%.2f", value=65.51, step=1., min_value=.001)
