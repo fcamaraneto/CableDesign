@@ -213,7 +213,7 @@ with tab1:
                                    x0=xc[i] - 1 * rc, y0=yc[i] - 1 * rc,
                                    x1=xc[i] + 1 * rc, y1=yc[i] + 1 * rc,
                                    line_color="LightSeaGreen"))
-            #shapes.append(dict(type="circle", xref="x", yref="y",
+            shapes.append(dict(type="circle", xref="x", yref="y",
                                x0= min(xc) - 1 * rc, y0= -max(xc) - 1 * rc,
                                x1= max(xc) + 1 * rc, y1= max(xc) + 1 * rc,
                                line_color="LightSeaGreen"))
